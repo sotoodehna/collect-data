@@ -9,7 +9,7 @@ import pandas as pd
 import glob 
 import os
 H = ["chr",  "start", "stop", "strand", "gene_symbol", "entrez_gene_id", "transcript_id" , "raw_count", "scaled_estimate", "normalized_count"]
-list = os.listdir("E:\\data\\HG19_TCGA_rnaseqv2_isoform\\bedfiles")   # Path to the main directory
+list = os.listdir("E:\\data\\HG19_TCGA_rnaseqv2_isoform\\bedfiles")  
 newList = []
 for i in range(len(list)):
     newList.append("E:\\data\\HG19_TCGA_rnaseqv2_isoform\\bedfiles\\" + list[i])
